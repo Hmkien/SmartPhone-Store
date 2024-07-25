@@ -1,0 +1,637 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SmartPhone-Store</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="assets/css/stylecss.css">
+        <!-- Slick CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <!-- Slick JS -->
+    </head>
+    <body>
+        <!--? Preloader Start -->
+        <div>
+            <div id="preloader-active">
+                <div class="preloader d-flex align-items-center justify-content-center">
+                    <div class="preloader-inner position-relative">
+                        <div class="preloader-circle"></div>
+                        <div class="preloader-img pere-text" style="margin-top: 0.3em;">
+                            <span class="text-danger">
+                                <i class="bi bi-phone display-4 "></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="item">
+                <a>
+                    <img src="assets/Image/fb.png" alt="Facebook">
+                </a>
+            </div>
+            <div class="item">
+                <a>
+                    <img src="assets/Image/message.jpg" alt="Message">
+                </a>
+            </div>
+            <div class="item">
+                <a>
+                    <img src="assets/Image/ytb.png" alt="YouTube">
+                </a>
+            </div>
+            <div class="item">
+                <a>
+                    <img src="assets/Image/zalo.png" alt="Zalo">
+                </a>
+            </div>
+        </div>
+        <!-- Preloader Start -->
+        <header>
+            <!-- Header Start -->
+            <div class="header-area">
+                <div class="main-header header-sticky">
+                    <div class="container-fluid">
+                        <div class="menu-wrapper d-flex align-items-center justify-content-between py-4">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="index.html" class="text-decoration-none">
+                                    <h4 style="font-size: 1.5em; font-weight: bolder; margin: 0;">
+                                        SmartPhone
+                                        <span class="text-danger">
+                                            Store
+                                            <i class="bi bi-phone"></i>
+                                        </span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <!-- Search Bar -->
+                            <div class="search-container mx-auto">
+                                <div class="search-box">
+                                    <form onsubmit="searchProducts(event)">
+                                        <input type="text" placeholder="Tìm kiếm sản phẩm " id="search-input">
+                                        <button type="submit">
+                                            <i class="bi bi-search"></i>
+                                        </button>
+                                    </form>
+                                    <div class="search-results" id="search-results" style="display: none;">
+                                        <ul>
+                                            <li>
+                                                <img src="iphone14promax.jpg" alt="iPhone 14 Pro Max">
+                                                iPhone 14 Pro Max chính hãng VN/A - 24.690.000₫
+                                            </li>
+                                            <li>
+                                                <img src="iphone13.jpg" alt="iPhone 13">
+                                                iPhone 13 mới chính hãng VN/A - 15.090.000₫
+                                            </li>
+                                            <li>
+                                                <img src="iphone11.jpg" alt="iPhone 11">
+                                                iPhone 11 mới chính hãng VN/A - 8.990.000₫
+                                            </li>
+                                            <li>
+                                                <img src="iphone14pro.jpg" alt="iPhone 14 Pro">
+                                                iPhone 14 Pro chính hãng VN/A - 24.690.000₫
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Navigation Menu -->
+                            <!-- Header Right -->
+                            <div class="header-right  d-none d-lg-block">
+                                <ul id="navigation" class="d-flex  mb-0 ">
+                                    <li>
+                                        <a class="nav-items" href="shop.html">Sản Phẩm</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-items" href="about.html">Giới Thiệu</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-items" href="contact.html">Liên Hệ</a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="login.html">
+                                            <span style="font-size: 1.3em;" class="bi bi-person"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="cart-item" href="cart.html">
+                                            <span style="font-size: 1.3em;" class="bi bi-cart"></span>
+                                            <span style="position: relative;top:-1.1em;left:-2.7em; background-color: red; 
+                                        color: white; border-radius:50%; padding: 4px 5px; font-size: 12px;">
+                                                0
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12 d-lg-none">
+                            <div class="mobile_menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+        </header>
+        <main>
+            <div class="hero-section section position-relative">
+                <div class="tf-element-carousel slider-nav">
+                    <!-- Hero Item start -->
+                    <div class="hero-item bg-image">
+                        <img style="width: 100%;" src="assets/Image/slide1.png" alt="">
+                    </div>
+                    <div class="hero-item bg-image">
+                        <img style="width: 100%;" src="assets/Image/slide2.png" alt="">
+                    </div>
+                    <div class="hero-item bg-image">
+                        <img style="width: 100%;" src="assets/Image/slide3.png" alt="">
+                    </div>
+                    <div class="hero-item bg-image">
+                        <img style="width: 100%;" src="assets/Image/slide 4.png" alt="">
+                    </div>
+                    <div class="hero-item bg-image">
+                        <img style="width: 100%;" src="assets/Image/slide 5.jpg" alt="">
+                    </div>
+                    <!-- Hero Item end -->
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/Oppo.png" alt="2G to 4G">
+                                <p> Oppo sành điệu</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/Samsung.png" alt="177K Sale">
+                                <p> SamSung thanh lịch</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/Xiaomi.png" alt="3 Million Discount">
+                                <p>Xiaomi mạnh mẽ</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/apple.webp" alt="50% Discount">
+                                <p>Iphone sang trọng</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div class="container-fluid supper-sale" style="width: 90%;">
+                    <div class="sale-banner">
+                        <h3 class="logo-sale blink">
+                            F
+                            <i class="bi bi-lightning-fill"></i>
+                            ASH SALE ONLINE
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <!-- Product 1 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/S22 Plus.png"
+                                    class="img-fluid mb-3"
+                                    alt="Samsung Galaxy S22+"
+                                >
+                                <h5>Samsung Galaxy S22+</h5>
+                                <p>8GB/128GB</p>
+                                <p class="product-price">
+                                    11,790,000 ₫
+                                    <span class="original-price">14,890,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Product 2 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/Xiaomi 11T.webp"
+                                    class="img-fluid mb-3"
+                                    alt="Xiaomi 11T"
+                                >
+                                <h5>Xiaomi 11T</h5>
+                                <p>8GB/256GB</p>
+                                <p class="product-price">
+                                    12,990,000 ₫
+                                    <span class="original-price">16,890,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Product 3 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/Xiaomi note 12pro.png"
+                                    class="img-fluid mb-3"
+                                    alt="Redmi Note 12 Pro 5G"
+                                >
+                                <h5>Redmi Note 12 Pro 5G</h5>
+                                <p>8GB/128GB</p>
+                                <p class="product-price">
+                                    6,990,000 ₫
+                                    <span class="original-price">9,490,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Product 4 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/z fold 4.jpg"
+                                    class="img-fluid mb-3"
+                                    alt="Samsung Z Fold 4"
+                                >
+                                <h5>Samsung Z Fold 4</h5>
+                                <p>4GB/128GB</p>
+                                <p class="product-price">
+                                    2,990,000 ₫
+                                    <span class="original-price">4,290,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <img
+                style="margin-left: 5em;margin-top: 3em;width: 90%;"
+                class="image-midle"
+                src="assets/Image/midle.png"
+                alt="#"
+            >
+            <section>
+                <div class="container-fluid supper-sale" style="width: 90%;">
+                    <div class="sale-banner">
+                        <h3 class="logo-sale blink">
+                            SẢN PHẨM NỔI BẬT
+                            <i class="fas fa-fire"></i>
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <!-- Product 1 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/S22 Plus.png"
+                                    class="img-fluid mb-3"
+                                    alt="Samsung Galaxy S22+"
+                                >
+                                <h5>Samsung Galaxy S22+</h5>
+                                <p>8GB/128GB</p>
+                                <p class="product-price">
+                                    11,790,000 ₫
+                                    <span class="original-price">14,890,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Product 2 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/Xiaomi 11T.webp"
+                                    class="img-fluid mb-3"
+                                    alt="Xiaomi 11T"
+                                >
+                                <h5>Xiaomi 11T</h5>
+                                <p>8GB/256GB</p>
+                                <p class="product-price">
+                                    12,990,000 ₫
+                                    <span class="original-price">16,890,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Product 3 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/Xiaomi note 12pro.png"
+                                    class="img-fluid mb-3"
+                                    alt="Redmi Note 12 Pro 5G"
+                                >
+                                <h5>Redmi Note 12 Pro 5G</h5>
+                                <p>8GB/128GB</p>
+                                <p class="product-price">
+                                    6,990,000 ₫
+                                    <span class="original-price">9,490,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Product 4 -->
+                        <div class="col-md-3 mb-4">
+                            <div class="product-card d-flex flex-column align-items-center justify-content-center text-center">
+                                <img
+                                    style="width: 14em; height: 15em;"
+                                    src="assets/Image/z fold 4.jpg"
+                                    class="img-fluid mb-3"
+                                    alt="Samsung Z Fold 4"
+                                >
+                                <h5>Samsung Z Fold 4</h5>
+                                <p>4GB/128GB</p>
+                                <p class="product-price">
+                                    2,990,000 ₫
+                                    <span class="original-price">4,290,000 ₫</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <img
+                style="margin-left: 5em;margin-top: 3em;width: 90%;"
+                class="image-midle"
+                src="assets/Image/bannner-top custom.png"
+                alt="#"
+            >
+            <section>
+                <section>
+                    <div class="container-fluid supper-sale" style="width: 90%;">
+                        <div class="sale-banner" style="margin-top: 4em;">
+                            <h2 class="logo-sale">KHÁCH HÀNG THÂN THIẾT CỦA SMARTPHONE STORE</h2>
+                        </div>
+                        <div class="container-fluid " style="width: 90%;margin-bottom: 5em;margin-top: 1em;">
+                            <div class="row">
+                                <!-- Testimonial 1 -->
+                                <div class="col-md-4">
+                                    <div class="testimonial-card">
+                                        <div class="testimonial-content">
+                                            <img src="assets/Image/hoài linh.jpg" class="img-fluid" alt="Customer 1">
+                                            <div>
+                                                <h5>NSND Hoài Linh</h5>
+                                                <p>Rất hài lòng với dịch vụ của SmartPhone Store.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial 2 -->
+                                <div class="col-md-4">
+                                    <div class="testimonial-card">
+                                        <div class="testimonial-content">
+                                            <img src="assets/Image/đàm vĩnh hương.jpg" class="img-fluid" alt="Customer 2">
+                                            <div>
+                                                <h5>Cs.Đàm Vĩnh Hưng</h5>
+                                                <p>Giá cả hợp lý và nhân viên thân thiện.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial 3 -->
+                                <div class="col-md-4">
+                                    <div class="testimonial-card">
+                                        <div class="testimonial-content">
+                                            <img src="assets/Image/quang tèo.jpg" class="img-fluid" alt="Customer 3">
+                                            <div>
+                                                <h5>NSND Quang Tèo</h5>
+                                                <p>Địa chỉ đáng tin cậy cho nhu cầu mua sắm.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="footer">
+                    <div class="container" style="margin-top: 2em;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <p style="color: black;">
+                                    <i class="bi bi-check-circle text-success" style="font-size: 2em;"></i>
+                                    Sản phẩm
+                                    <br>
+                                    <span style="font-size: 2.1em;font-weight: 500;color: black;line-height: 1.3;">CHÍNH HÃNG</span>
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <p style="color: black;">
+                                    <i class="bi bi-truck text-primary" style="font-size: 2em;"></i>
+                                    Miễn phí vận chuyển
+                                    <br>
+                                    <span style="font-size: 2.1em;font-weight: 500;color: black;line-height: 1.3;">TOÀN QUỐC</span>
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <p style="color: black;">
+                                    <i class="bi bi-telephone-fill text-primary" style="font-size: 2em;"></i>
+                                    Hotline hỗ trợ:
+                                    <br>
+                                    <span style="font-size: 2.1em;font-weight: 500;color: black;line-height: 1.3;">19001002</span>
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <p style="color: black;">
+                                    <i class="bi bi-arrow-clockwise text-warning" style="font-size: 2em;"></i>
+                                    Thủ tục đổi trả
+                                    <br>
+                                    <span style="font-size: 2.1em;font-weight: 500;color: black;line-height: 1.3;">DỄ DÀNG</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <!-- Footer Start-->
+                <div class="footer-area footer-padding">
+                    <div class="container-fluid" style=" padding-top: 2em; margin-bottom: -8em;margin-top: -7em;">
+                        <div class="row justify-content-center">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                    <div class="single-footer-caption mb-50">
+                                        <div class="single-footer-caption mb-40">
+                                            <!-- logo -->
+                                            <div class="footer-logo text-center">
+                                                <a href="index.html">
+                                                    <h4 style="font-size: 1.5em; font-weight: bolder; margin: 0;">
+                                                        SmartPhone
+                                                        <span class="text-danger">
+                                                            Store
+                                                            <i class="bi bi-phone"></i>
+                                                        </span>
+                                                    </h4>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <p style="text-align: center;">Smartphone Store chuyên cung cấp các loại điện thoại thông minh chất lượng cao, giá cả hợp lý và dịch vụ hậu mãi tuyệt vời.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                    <div class="single-footer-caption mb-50">
+                                        <div class="footer-tittle">
+                                            <h4>Liên Kết Nhanh</h4>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Về Chúng Tôi</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ưu Đãi & Giảm Giá</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Nhận Mã Giảm Giá</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Liên Hệ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                    <div class="single-footer-caption mb-50">
+                                        <div class="footer-tittle">
+                                            <h4>Sản Phẩm Mới</h4>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">iPhone 15 Pro Max</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Samsung Galaxy S24</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Xiaomi Mi 14</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">OnePlus 12 Pro</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                    <div class="single-footer-caption mb-50">
+                                        <div class="footer-tittle">
+                                            <h4>Hỗ Trợ</h4>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Câu Hỏi Thường Gặp</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Điều Khoản & Điều Kiện</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chính Sách Bảo Mật</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Báo Cáo Vấn Đề Thanh Toán</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Footer bottom -->
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-12 text-center">
+                                    <div class="footer-copy-right">
+                                        <p>
+                                            Bản quyền &copy;
+                                            <script>document.write(new Date().getFullYear());</script>
+                                            Tất cả các quyền | Bài thu hoạch này được thực hiện với
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                            bởi
+                                            <a href="https://colorlib.com" target="_blank">HMK</a>
+                                        </p>
+                                    </div>
+                                    <!-- social -->
+                                    <div class="footer-social">
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="https://www.facebook.com/sai4ull">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-behance"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fas fa-globe"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer End-->
+                </div>
+            </footer>
+            <!-- JS here -->
+            <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+            <!-- Jquery, Popper, Bootstrap -->
+            <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+            <script src="./assets/js/popper.min.js"></script>
+            <script src="./assets/js/bootstrap.min.js"></script>
+            <!-- Jquery Mobile Menu -->
+            <script src="./assets/js/jquery.slicknav.min.js"></script>
+            <!-- Jquery Slick , Owl-Carousel Plugins -->
+            <script src="./assets/js/owl.carousel.min.js"></script>
+            <script src="./assets/js/slick.min.js"></script>
+            <!-- One Page, Animated-HeadLin -->
+            <script src="./assets/js/wow.min.js"></script>
+            <script src="./assets/js/animated.headline.js"></script>
+            <script src="./assets/js/jquery.magnific-popup.js"></script>
+            <!-- Scrollup, nice-select, sticky -->
+            <script src="./assets/js/jquery.scrollUp.min.js"></script>
+            <script src="./assets/js/jquery.nice-select.min.js"></script>
+            <script src="./assets/js/jquery.sticky.js"></script>
+            <!-- contact js -->
+            <script src="./assets/js/contact.js"></script>
+            <script src="./assets/js/jquery.form.js"></script>
+            <script src="./assets/js/jquery.validate.min.js"></script>
+            <script src="./assets/js/mail-script.js"></script>
+            <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+            <!-- Jquery Plugins, main Jquery -->
+            <script src="./assets/js/plugins.js"></script>
+            <script src="./assets/js/main.js"></script>
+            <!-- jQuery -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+            <script src="assets/js/stylejs.js"></script>
+        </body>
+    </html>

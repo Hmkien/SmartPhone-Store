@@ -1,0 +1,436 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SmartPhone Store</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/stylecss.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div>
+            <div id="preloader-active">
+                <div class="preloader d-flex align-items-center justify-content-center">
+                    <div class="preloader-inner position-relative">
+                        <div class="preloader-circle"></div>
+                        <div class="preloader-img pere-text" style="margin-top: 0.3em;">
+                            <span class="text-danger">
+                                <i class="bi bi-phone display-4 "></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="item">
+                <a>
+                    <img src="assets/Image/fb.png" alt="Facebook">
+                </a>
+            </div>
+            <div class="item">
+                <a>
+                    <img src="assets/Image/message.jpg" alt="Message">
+                </a>
+            </div>
+            <div class="item">
+                <a>
+                    <img src="assets/Image/ytb.png" alt="YouTube">
+                </a>
+            </div>
+            <div class="item">
+                <a>
+                    <img src="assets/Image/zalo.png" alt="Zalo">
+                </a>
+            </div>
+        </div>
+        <header>
+            <!-- Header Start -->
+            <div class="header-area">
+                <div class="main-header header-sticky">
+                    <div class="container-fluid">
+                        <div class="menu-wrapper d-flex align-items-center justify-content-between py-4">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="index.html" class="text-decoration-none">
+                                    <h4 style="font-size: 1.5em; font-weight: bolder; margin: 0;">
+                                        SmartPhone
+                                        <span class="text-danger">
+                                            Store
+                                            <i class="bi bi-phone"></i>
+                                        </span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <!-- Search Bar -->
+                            <div class="search-container mx-auto">
+                                <div class="search-box">
+                                    <form onsubmit="searchProducts(event)">
+                                        <input type="text" placeholder="Tìm kiếm sản phẩm " id="search-input">
+                                        <button type="submit">
+                                            <i class="bi bi-search"></i>
+                                        </button>
+                                    </form>
+                                    <div class="search-results" id="search-results" style="display: none;">
+                                        <ul>
+                                            <li>
+                                                <img src="iphone14promax.jpg" alt="iPhone 14 Pro Max">
+                                                iPhone 14 Pro Max chính hãng VN/A - 24.690.000₫
+                                            </li>
+                                            <li>
+                                                <img src="iphone13.jpg" alt="iPhone 13">
+                                                iPhone 13 mới chính hãng VN/A - 15.090.000₫
+                                            </li>
+                                            <li>
+                                                <img src="iphone11.jpg" alt="iPhone 11">
+                                                iPhone 11 mới chính hãng VN/A - 8.990.000₫
+                                            </li>
+                                            <li>
+                                                <img src="iphone14pro.jpg" alt="iPhone 14 Pro">
+                                                iPhone 14 Pro chính hãng VN/A - 24.690.000₫
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Navigation Menu -->
+                            <!-- Header Right -->
+                            <div class="header-right  d-none d-lg-block">
+                                <ul id="navigation" class="d-flex  mb-0 ">
+                                    <li>
+                                        <a class="nav-items" href="shop.html">Sản Phẩm</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-items" href="about.html">Giới Thiệu</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-items" href="contact.html">Liên Hệ</a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="login.html">
+                                            <span style="font-size: 1.3em;" class="bi bi-person"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="cart-item" href="cart.html">
+                                            <span style="font-size: 1.3em;" class="bi bi-cart"></span>
+                                            <span style="position: relative;top:-1.1em;left:-2.7em; background-color: red; 
+                                        color: white; border-radius:50%; padding: 4px 5px; font-size: 12px;">
+                                                0
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12 d-lg-none">
+                            <div class="mobile_menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+        </header>
+        <main>
+            <div class="jumbotron text-center py-5">
+                <h1>Chào mừng đến với SmartPhone Store</h1>
+                <p>Nhà bán lẻ hàng đầu các sản phẩm công nghệ chính hãng tại Việt Nam</p>
+            </div>
+            <div class="container my-5">
+                <h1 class=" text-center mb-3 text-danger">GIỚI THIỆU CHUNG</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>
+                            Công ty Cổ phần Xây dựng và Đầu tư thương mại SmartPhone Store sở hữu chuỗi cửa hàng SmartPhone Store - là nhà bán lẻ hàng đầu, chuyên cung cấp các sản phẩm công nghệ chính hãng tại thị trường Việt Nam. Năm 1996, CEO của SmartPhone Store bắt đầu làm quen với việc kinh doanh đồ điện tử, sau này, SmartPhone Store được thành lập, từng bước trở thành địa chỉ đáng tin cậy của người tiêu dùng Việt. Với khẩu hiệu “Nếu những gì chúng tôi không có, nghĩa là bạn không cần”, chúng tôi đã, đang và sẽ tiếp tục nỗ lực đem đến các sản phẩm công nghệ chính hãng đa dạng, phong phú đi kèm mức giá tốt phục vụ nhu cầu của quý khách hàng.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img
+                            src="assets/Image/about.jpg"
+                            class="img-fluid rounded"
+                            alt="Store Image"
+                            style="width: 40em;"
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="container my-5">
+                <h2 class=" text-center text-danger mb-3">Những dấu mốc quan trọng</h2>
+                <div class="timeline">
+                    <div class="row">
+                        <div class="justify-content-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5>Năm 1996</h5>
+                                    <p>CEO bắt đầu nghiên cứu và tham gia vào các đơn vị kinh doanh công nghệ.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5>Năm 2004</h5>
+                                    <p>CEO mở cửa hàng điện thoại đầu tiên, tọa lạc trên con phố sầm uất của Thủ đô Hà Nội ở địa chỉ 194 Lê Duẩn, chính thức trở thành nhà phân phối ĐTDĐ chính hãng hợp tác với nhiều nhãn hàng lớn hàng đầu như Samsung, OPPO, Nokia, Huawei,...</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5>Năm 2006</h5>
+                                    <p>Cửa hàng phát triển mạnh mẽ và có thêm nhiều chi nhánh mới.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5>Năm 2016</h5>
+                                    <p>SmartPhone Store đã khẳng định được chỗ đứng vững chắc trên thị trường cũng như trong tiềm thức người tiêu dùng.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5>Năm 2019</h5>
+                                    <p>SmartPhone Store chính thức hợp tác với ông lớn ngành viễn thông MobiFone Việt Nam mở chuỗi chi nhánh bán hàng liên kết, nâng tổng số chi nhánh tới hơn 60, đồng thời phủ khắp 30 tỉnh thành trên cả nước. Kể từ đó, SmartPhone Store liên tục đồng hành cùng MobiFone tổ chức các sự kiện lớn nhỏ.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5>Năm 2020</h5>
+                                    <p>SmartPhone Store tự hào trở thành nhà bán lẻ ủy quyền chính thức của Apple tại Việt Nam. Các sản phẩm Apple chính hãng VN/A do Apple Việt Nam phân phối được bán tại hệ thống SmartPhone Store với mức giá tốt hàng đầu thị trường cùng chế độ bảo hành uy tín.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-5">
+                <h2 class=" text-center text-danger mb-3">KIM CHỈ NAM</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>SmartPhone Store luôn hoạt động dựa trên tôn chỉ đặt khách hàng là trung tâm, mọi nỗ lực để đạt được mục tiêu cao nhất là làm hài lòng người dùng thông qua các sản phẩm được cung cấp và dịch vụ khách hàng. SmartPhone Store đang từng bước xây dựng dịch vụ khách hàng vượt trội, xứng đáng là đơn vị bán lẻ hàng đầu tại Việt Nam. Sự tin tưởng và ủng hộ nhiệt tình của quý khách hàng tại chuỗi chi nhánh đã phần nào khẳng định hiệu quả hoạt động của đội ngũ nhân viên SmartPhone Store.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Đối với quý khách hàng, chúng tôi luôn đặt cái tâm làm gốc, làm việc với tinh thần nghiêm túc, trung thực và có trách nhiệm, để mang tới trải nghiệm dịch vụ tốt nhất.</p>
+                        <p>Đối với đồng nghiệp, chúng tôi đề cao văn hóa học hỏi, đoàn kết, tương trợ lẫn nhau tạo nên môi trường làm việc tôn trọng - công bằng - văn minh cho nhân viên trong công ty.</p>
+                        <p>Đối với các đối tác, SmartPhone Store luôn làm việc dựa trên nguyên tắc tôn trọng, cùng tạo ra giá trị cho cộng đồng và cùng phát triển bền vững.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-5">
+                <h2 class=" text-center mb-3 text-danger">TẦM NHÌN VÀ XỨ MỆNH</h2>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Những năm qua, chúng tôi không ngừng cải thiện dịch vụ tại các chi nhánh và hỗ trợ khách hàng qua các kênh online. SmartPhone Store cam kết mang đến những sản phẩm chất lượng và chế độ bảo hành uy tín, sẵn sàng hỗ trợ khách hàng trong thời gian nhanh nhất.</p>
+                        <p>Trong tương lai, SmartPhone Store sẽ tiếp tục mở rộng hệ thống chi nhánh, hướng tới mục tiêu có mặt tại 63 tỉnh thành trên toàn quốc. Đồng thời, nâng cao chất lượng dịch vụ, hạn chế những rủi ro, lắng nghe và tiếp thu góp ý của quý khách hàng nhằm đem đến trải nghiệm tốt nhất khi mua sắm tại SmartPhone Store.</p>
+                        <p>Cuối cùng, SmartPhone Store hy vọng sẽ trở thành nhà tiên phong đưa những sản phẩm công nghệ mới nhất đến tay người dùng sớm nhất, tạo ra cuộc sống hiện đại nơi công nghệ kết nối con người, công nghệ phục vụ con người.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/Oppo.png" alt="2G to 4G">
+                                <p> Oppo sành điệu</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/Samsung.png" alt="177K Sale">
+                                <p> SamSung thanh lịch</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/Xiaomi.png" alt="3 Million Discount">
+                                <p>Xiaomi mạnh mẽ</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a>
+                            <div class="card">
+                                <img src="assets/Image/apple.webp" alt="50% Discount">
+                                <p>Iphone sang trọng</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!-- Footer Start-->
+            <div class="footer-area footer-padding">
+                <div class="container-fluid" style=" padding-top: 2em; margin-bottom: -8em;margin-top: -7em;">
+                    <div class="row justify-content-center">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="single-footer-caption mb-40">
+                                        <!-- logo -->
+                                        <div class="footer-logo text-center">
+                                            <a href="index.html">
+                                                <h4 style="font-size: 1.5em; font-weight: bolder; margin: 0;">
+                                                    SmartPhone
+                                                    <span class="text-danger">
+                                                        Store
+                                                        <i class="bi bi-phone"></i>
+                                                    </span>
+                                                </h4>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <p style="text-align: center;">Smartphone Store chuyên cung cấp các loại điện thoại thông minh chất lượng cao, giá cả hợp lý và dịch vụ hậu mãi tuyệt vời.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="footer-tittle">
+                                        <h4>Liên Kết Nhanh</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Về Chúng Tôi</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ưu Đãi & Giảm Giá</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Nhận Mã Giảm Giá</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Liên Hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="footer-tittle">
+                                        <h4>Sản Phẩm Mới</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">iPhone 15 Pro Max</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Samsung Galaxy S24</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Xiaomi Mi 14</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">OnePlus 12 Pro</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="footer-tittle">
+                                        <h4>Hỗ Trợ</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Câu Hỏi Thường Gặp</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Điều Khoản & Điều Kiện</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chính Sách Bảo Mật</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Báo Cáo Vấn Đề Thanh Toán</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Footer bottom -->
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-12 text-center">
+                                <div class="footer-copy-right">
+                                    <p>
+                                        Bản quyền &copy;
+                                        <script>document.write(new Date().getFullYear());</script>
+                                        Tất cả các quyền | Bài thu hoạch này được thực hiện với
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        bởi
+                                        <a href="https://colorlib.com" target="_blank">HMK</a>
+                                    </p>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/sai4ull">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-behance"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-globe"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer End-->
+            </div>
+        </footer>
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <!-- Jquery, Popper, Bootstrap -->
+        <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+        <script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+        <!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/jquery.sticky.js"></script>
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Jquery Plugins, main Jquery -->
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
